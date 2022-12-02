@@ -1,0 +1,50 @@
+*{
+    text-align: center;
+}
+.container1{
+   padding-top: 200px;
+   margin-right: 150px;
+}
+.input_space{
+    margin-bottom: 10px;
+}
+input{
+    height: 30px;
+    width: 20%;
+    font-size: 18px;
+}
+button{
+    height: 30px;
+    width: 15%;
+    background-color:grey;
+    border: none;
+    
+}
+.logout{
+    margin-right: 5px;
+    color: white;
+    font-weight: 400;
+}
+.delete{
+    margin-right: 5px;
+    color: white;
+    background-color: rgb(19, 103, 142);
+    font-weight: 400;
+}
+.intext{
+    text-align: left;
+    width: 500px;
+    height: 40px; 
+    border-style: none;
+    border-bottom: 3px solid black;
+}
+
+.but{
+    margin-right: 330px;
+    width: 170px;
+    height: 40px;
+}
+.tit{
+    margin-right: 380px;
+    padding-bottom: 20px;
+}
