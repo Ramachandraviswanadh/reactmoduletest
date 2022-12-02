@@ -10,6 +10,9 @@ function App() {
     <BrowserRouter>
 		  <NavbarComponent />
 			<Switch>
+			<Route path="/">
+					<Signup />
+				</Route>
 				<Route path="/signup">
 					<Signup />
 				</Route>
