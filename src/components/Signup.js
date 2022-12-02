@@ -10,9 +10,9 @@ function Signup(){
    const [show,setShow]=useState(false)
     const localSignUp=localStorage.getItem("signUp")
     const localEmail=localStorage.getItem("email")
-    const localPassword=localStorage.getItem("password")
-    const localconfirmPassword=localStorage.getItem("confirmpassword")
-    const localName=localStorage.getItem("name")
+    // const localPassword=localStorage.getItem("password")
+    // const localconfirmPassword=localStorage.getItem("confirmpassword")
+    // const localName=localStorage.getItem("name")
    useEffect(()=>{
     if(localSignUp){
         setShowHome(true)
